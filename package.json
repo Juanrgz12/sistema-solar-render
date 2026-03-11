@@ -1,0 +1,14 @@
+{
+  "name": "sistema-solar-juan",
+  "version": "1.0.0",
+  "description": "Proyecto del sistema solar para desplegar en Render",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Juan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
