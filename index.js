@@ -11,7 +11,7 @@ app.use(express.static(__dirname));
 // Ruta principal para abrir tu página
 app.get('/', (req, res) => {
     // Usamos 'Index.html' porque así se llama tu archivo en la captura
-    res.sendFile(path.join(__dirname, 'Index.html'));
+    res.sendFile(path.join(__dirname, 'index.html'));
 });
 
 app.listen(PORT, () => {
